@@ -1,0 +1,28 @@
+@import url('../../variables.css');
+
+.button {
+    padding: 10px 30px;
+    margin: 5px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: var(--color-light);
+    background: var(--purple-secondary);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    filter: brightness(120%);
+}
+
+.button[type='submit'] {
+    background: var(--purple);
+    border: 1px solid var(--border-btn);
+}
+
+.button:disabled {
+    background: var(--color-accent);
+    color: var(--color-dark);
+    cursor: default;
+}

@@ -1,0 +1,15 @@
+@import url('./variables.css');
+
+body {
+    margin: 0;
+    padding: 0;
+    max-height: 100vh;
+    font-family: Helvetica, sans-serif;
+    background-color: var(--bg-dark);
+    color: var(--color-light);
+}
+
+a,
+a:visited {
+    color: inherit;
+}

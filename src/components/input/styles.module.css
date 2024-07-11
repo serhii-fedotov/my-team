@@ -1,0 +1,33 @@
+@import url('../../variables.css');
+
+.wrapper {
+    width: 80%;
+    margin: 5px;
+}
+
+.input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 20px;
+    background: var(--bg-void);
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--color-accent);
+    transition: all 0.1s ease-in;
+}
+
+.input:hover,
+.input:focus {
+    filter: brightness(120%);
+    outline: 1px solid var(--purple);
+}
+
+.error {
+    margin: 5px 10px 10px;
+    max-width: 300px;
+    font-size: 14px;
+    color: var(--red);
+}

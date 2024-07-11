@@ -1,0 +1,10 @@
+@import url(../../variables.css);
+
+.banner {
+    width: 80%;
+    margin: 10px 5px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background: var(--red);
+}
